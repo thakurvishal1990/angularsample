@@ -1,0 +1,177 @@
+<div class="loading-background hide"><!-- Toggle the class hide on success of service calls -->
+			<div class="loading"></div>
+		</div>
+		<button ng-click="getCounts()">Get Counts</button>
+		<div class="notification-wrapper">
+				<header class="clearfix notification-header-wrapper">
+					<div class="row notification-header">
+						<div class="col-xs-12 notifications-head-content">
+							<div class="row">
+								<h1 class="notifications-label col-white col-xs-5 col-md-4">Notifications</h1>
+								<div class="col-xs-7 col-md-4 refresh-hide-container pull-right">
+									<ul class="list-unstyled pull-right refresh-hide-wrapper">
+										<li class="pull-left"><a href="javascript:" class="refresh-wrapper pull-left"> <span class="refresh-content-dashboard pull-left">Refresh</span> <span class="refresh-img-wrapper pull-left"></span> </a></li>
+										<li class="pull-right"><a href="javascript:" class="hide-wrapper pull-left"> <span class="hide-content pull-left">Hide</span> <span class="hide-img-wrapper pull-left"></span><!-- <span class="hide-icon">&#45;</span> --> </a></li>
+										<li class="pull-right hide"><a href="javascript:" class="show-wrapper pull-left"> <span class="show-content pull-left">Show</span> <span class="show-img-wrapper pull-left"></span><!-- <span class="hide-icon">&#45;</span> --> </a></li>
+									</ul>
+								</div>
+								<div class="col-xs-12 col-md-8 client_search_container pull-left">
+
+									<div class="client_search_wrapper form-group clearfix">
+										<label for="clientSearch" class="client_search caps ui-input-text">Client Search</label>
+										<div class="ui-input-text">
+										<input type="text" name="clientSearch" class="form-control client" id="clientSearch" placeholder="Insured Name/Policy #" autocomplete="off">
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+					<h1 id="searchResult" class="hide col-white search-result-wrapper"><span>Search Results for </span><span id="searchResultText" class="search-result-value"></span></h1>
+				</header>
+				<div class="notification-content">
+
+					<section class="annuity-esignature-dashboard">
+
+
+						<h2 class="annuity-esignature-dashboard-label"><span class="uppercase">Esignature</span></h2>
+						<div id="commingsoon" class="hide row"><div class="col-xs-6 col-md-4"><div class="coming-soon-wrapper clearfix"><span class="pull-left coming-soon-content col-blue">Coming soon...</span></div></div></div>
+						<ul class="annuity-esignature-dashboard-content row list-unstyled">
+							<li class="col-xs-6  col-md-4">
+								<div class="my-signature-pending clearfix">
+									<div class="my-signature-pending-count-wrapper">
+										<h2 class="my-signature-pending-count col-blue" id="my-sign">0</h2>
+
+									</div>
+
+									<div class="my-signature-pending-content-wrapper">
+										<span class="pull-left my-signature-pending-content col-blue">My Signature (s)
+											<br>
+											Pending</span>
+											<span class="pull-right right-arrow-wrapper">  </span>
+										</div>
+									</div>
+
+								</li>
+								<li class="col-xs-6  col-md-4">
+									<div class="expiring clearfix">
+										<div class="expiring-count-wrapper">
+											<h2 class="col-blue my-signature-pending-count" id="expiringCount">0</h2>
+										</div>
+										<div class="expiring-content-wrapper">
+											<span class="pull-left expiring-content col-blue">Expiring</span>
+											<span class="pull-right right-arrow-wrapper">  </span>
+										</div>
+									</div>
+								</li>
+								<li class="col-xs-6  col-md-4">
+									<div class="signature-pending clearfix">
+										<div class="signature-pending-count-wrapper">
+											<h2 class="signature-pending-count col-blue" id="sign-pending">100</h2>
+										</div>
+										<div class="signature-pending-content-wrapper">
+											<span class="pull-left signature-pending-content col-blue">Signature
+												<br>
+												Pending</span>
+												<span class="pull-right right-arrow-wrapper">  </span>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+							</section>
+							<section class="new-business">
+								<h2 class="new-business-label-dashboard clearfix">
+									<span class="uppercase pull-left">New Business</span>
+
+									<div class="pull-right reports-wrapper reports">
+										<a class="pull-left ui-link" href="/axae/myportal/rad/util/reports/">
+											<span class="pull-left col-white reports-cont">Reports</span>
+											<span class="pull-left reports-arrow-wrapper icon"></span>
+										</a>
+									</div>
+
+								</h2>
+								<ul class="new-business-content row list-unstyled">
+									<li class="col-xs-6  col-md-4" ng-click="getLandingPage('Notifications')">
+										<div class="notifications clearfix">
+											<div class="notifications-count-wrapper">
+												<h2 class="notifications-count col-blue">{{notifyCount}}</h2>
+											</div>
+											<div class="notifications-content-wrapper">
+												<span class="pull-left notifications-content col-blue"> Notifications</span>
+												<span class="pull-right right-arrow-wrapper"> </span>
+											</div>
+										</div>
+									</li>
+									<li class="col-xs-6  col-md-4">
+										<div class="outstanding-req clearfix">
+											<ul class="outstanding-req-list clearfix list-unstyled">
+												<li class="outstanding-req-content-wrapper">
+													<h3 class="col-white outstanding-req-content">Outstanding Req. and Suitability:</h3>
+
+												</li>
+												<li class="outstanding-req-list-content-wrapper">
+													<ul class="outstanding-req-list-content clearfix list-unstyled">
+
+														<li class="dashboard-advisor bord-bot-gry clearfix" ng-click="getLandingPage('Advisor')">
+															<div class="dashboard-advisor-count-wrapper">
+																<h2 class="dashboard-advisor-count col-blue">{{advisorCount}}</h2>
+															</div>
+															<div class="dashboard-advisor-content-wrapper">
+																<span class="pull-left dashboard-advisor-content col-blue">Advisor</span>
+																<span class="pull-right dashboard-advisor-content-right-arrow-wrapper right-arrow-wrapper">  </span>
+															</div>
+
+														</li>
+														<li class="dashboard-service-center clearfix" ng-click="getLandingPage('Other')">
+															<div class="dashboard-service-center-count-wrapper">
+																<h2 class="dashboard-service-center-count col-blue">{{otherCount}}</h2>
+															</div>
+															<div class="dashboard-service-center-content-wrapper">
+																<span class="pull-left dashboard-service-center-content col-blue">Others</span>
+																<span class="pull-right dashboard-service-center-right-arrow-wrapper right-arrow-wrapper"> </span>
+															</div>
+
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="col-xs-6  col-md-4">
+										<div class="list clearfix" ng-click="getLandingPage('BusinessList')">
+											<div class="list-count-wrapper">
+												<h2 class="list-count col-blue" id="bnsLstCnt">{{newBusinessListCount}}</h2>
+											</div>
+											<div class="list-content-wrapper">
+												<span class="pull-left list-content col-blue">List</span>
+												<span class="pull-right right-arrow-wrapper">  </span>
+											</div>
+										</div>
+
+									</li>
+								</ul>
+							</section>
+							<section class="inforce">
+								<h2 class="inforce-label"><span class="uppercase">Inforce Alerts </span><span>(Life and Annuity)</span> <!-- <span class="alerts-caption">(Coming soon!)</span> --></h2>
+
+								<ul class="inforce-content row list-unstyled">
+									<li class="col-xs-6  col-md-4" ng-click="getLandingPage('alerts')">
+										<div class="inforce-alerts-bt clearfix">
+											<div class="inforce-alerts-bt-count-wrapper">
+												<h2 class="inforce-alerts-bt-count col-blue">{{alertCount}}</h2>
+											</div>
+											<div class="inforce-alerts-bt-content-wrapper">
+												<span class="pull-left inforce-alerts-bt-content col-blue"> Alerts</span>
+												<span class="pull-right right-arrow-wrapper">  </span>
+											</div>
+										</div>
+									</li>
+
+								</ul>
+							</section>
+						</div>
+					</div>

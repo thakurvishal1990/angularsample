@@ -1,0 +1,12 @@
+{  
+   "getDashboardCounts":[  
+      {  
+         "agentCode":"121932",
+         "notifications":"94",
+         "new_business_list":"288",
+         "os_req_servicecentre":"168",
+         "os_req_advisor":"365",
+         "alertCount":"293"
+      }
+   ]
+}

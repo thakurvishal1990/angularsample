@@ -1,0 +1,29 @@
+table.dataTable thead .sorting {
+  /*background: url("../../../images/bt/bt/up.png") no-repeat top right,
+			 url("../../../images/bt/bt/down.png") no-repeat bottom right;*/
+}
+table.dataTable thead .sorting_asc {
+  background: url("../img/up.png") no-repeat 100% 11px;
+  background-size: 20px;
+ 
+}
+table.dataTable thead .sorting_desc {
+  background: url("../img/down.png") no-repeat 100% 11px;
+  background-size: 20px;
+}
+.dataTables_scrollHeadInner{
+	height: 39px;
+}
+.dataTables_wrapper,.dataTables_scroll{
+	height: 100%;
+}
+.dataTables_scrollBody{
+	height: 87% !important;
+}
+/*
+$('#landingDataTable').dataTable( {
+ "sScrollY": "20",
+ "bScrollCollapse": true
+ } 
+*/
+ 	

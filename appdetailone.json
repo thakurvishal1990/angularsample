@@ -1,0 +1,97 @@
+{  
+   "ApplicationDetails":{  
+      "ApplicationInformation":{  
+         "ContractNo":"IRP0950100",
+         "Source":"NBA",
+         "AppReceivedDate":"",
+         "AppStatus":"Pending",
+         "AppStatusChangeDate":"",
+         "LineOfBusiness":"LIFE",
+         "LastViewed":"2014-03-18",
+         "Product":"Permanent Plan Informal Phase 1",
+         "FaceAmount":"$11,125,000",
+         "CashWithAppInd":"N",
+         "CashWithAppAmount":"0",
+         "ContractStatusCd":"20",
+         "ContractStatusDesc":"Pending"
+      },
+      "InsuredCoverageInformation":[  
+         {  
+            "InsuredName":"Mickelson , Patrick",
+            "CoverageBenefitCode":"P",
+            "CoverageDesc":"Permanent Plan Informal Phase 1",
+            "Amount":"$11,125,000",
+            "IsrdRating":""
+         }
+      ],
+      "AssociateSummary":[  
+         {  
+            "AssociateName":"MITCHELL",
+            "AssociateCode":"1470432",
+            "Role":"OSA",
+            "AssociatePct":"100"
+         }
+      ],
+      "ExpressCommissionSummary":{  
+         "ExpressScheduled":"N",
+         "ExpressEligible":"N",
+         "IneligibilityReason":""
+      },
+      "ContactInformation":[  
+         {  
+            "Role":"CaseManager",
+            "Name":"Test Indexer1",
+            "EmailID":"",
+            "PhoneNumber":""
+         },
+         {  
+            "Role":"CaseUnderwriter",
+            "Name":"Sue Amidon",
+            "EmailID":"Sue.Amidon@axa-equitable",
+            "PhoneNumber":"3151112222"
+         }
+      ],
+      "RequirementsSummary":{  
+         "OutstandingRequirements":{  
+            "Agent":"0",
+            "ServiceCenter":"0",
+            "Total":"0"
+         },
+         "RequirementsStillUnderReview":{  
+            "Agent":"0",
+            "ServiceCenter":"0",
+            "Total":"0"
+         },
+         "RequirementsReviewed":{  
+            "Agent":"0",
+            "ServiceCenter":"0",
+            "Total":"0"
+         },
+         "TotalRequirements":{  
+            "Agent":"0",
+            "ServiceCenter":"0",
+            "Total":"0"
+         }
+      },
+      "RequirementDetails":"",
+      "ImageIndicators":[  
+         {  
+            "Color":"Green",
+            "Desc":"Application Received"
+         },
+         {  
+            "Color":"Blue",
+            "Desc":"Requirements Received & Reviewed"
+         },
+         {  
+            "Color":"White",
+            "Desc":"Offer"
+         },
+         {  
+            "Color":"White",
+            "Desc":"Offer Accepted"
+         }
+      ],
+      "imgRuleId":"L028 - No Req"
+   }
+}

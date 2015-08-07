@@ -1,0 +1,582 @@
+[  
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_PA14",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-16",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either a state in your comments that the lookback report did not produce any results or b state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.AP9715_Replacement_VA.36_Month_Lookback_1"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":34,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_PA4",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-16",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":34,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_Other4",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-16",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":34,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Pend-Equities/Fixed Inc/Options"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_Other12",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-16",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":34,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Pend-Equities/Fixed Inc/Options"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_PA24",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_PA34",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar02_PA34",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_Other24",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Pend-Equities/Fixed Inc/Options"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar09_Other32",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Pend-Equities/Fixed Inc/Options"
+   },
+   {  
+      "insuredname":"BOUCHER , STEPHANIE ",
+      "contract":"Mar02_PA24",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-11",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. Per FINRA Rule 2330, supervisory reviews of annuity replacements must include a 36-month client transaction review or 'lookback'. Please produce a 36-month client lookback report from the Replacement Tracking System and either (a) state in your comments that the lookback report did not produce any results or (b) state in your comments that the lookback report did produce results, upload the results into ProSurv and provide your comments.(AP9715_Replacement_VA.36_Month_Lookback_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9715_Replacement_VA:This transaction is a replacement. The branch principal should review the proposed replacement, including but not limited to a review of the RAF, the application and related materials. NOTE: the surrender charge included in ProSurv may be reflective of the aggregated surrender charges if there are multiple policies/contracts. The hard copy replacement acknowledgement form ('RAF') can be signed at any point between when the case appears in the ProSurv queue (start of the 7-day window) and the time a final suitability determination is made in ProSurv. The RAF cannot be signed prior to the case appearing in the ProSurv queue or after the final suitability determination has been made in ProSurv. A countersignature by a Branch Manager can occur after the final suitability determination has been made in ProSurv.(AP9715_Replacement_VA.Yes_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$1,983.00] and their estimated monthly expenses are [$750.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [60.35%]  and Fixed Income is [39.65%] with an overall weighted standard deviation of [6.3690]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9822_Existing_Annuity_Insurance:The client has indicated that he/she has an existing annuity contract. Please consider this when reviewing the client's ability to make current and future contributions.(AP9822_Existing_Annuity_Insurance.Yes_VA_Contract_0)"
+            }
+         ],
+         "ProductType":"SIMPLE IRA",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":37,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"TestBT , TestBT ",
+      "contract":"Mar02_PA13",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-06",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9585_Time_Horizon:The client's time horizon 4 years may not be appropriate for an annuity or life policy with a potential CDSC if early withdrawals/surrenders occurs. Please provide rationale for this purchase given the client's relatively short time horizon. (AP9585_Time_Horizon.Too_Low_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$25,000.00] and their estimated monthly expenses are [$10,000.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9785_Source_of_Funds:There is question as to whether or not this application is replacement related.  Please contact the agent to verify: 1) if the app's replacement question was incorrectly completed; 2) if the app's SOF question (i.e., 'Annuity or Life Insurance') was incorrectly completed; or 3) if there was a keying error made at the service center. If this matter is the result of an improperly completed application, the agent is to submit an amended (client initialed and dated) application to the service center highlighting the correction and also comply with all associated replacement processes, if applicable.  If this matter is the result of a service center keying error, select 'Pend VA/VL Keying Error' to have the Service Center resubmit the case with the correct data.(AP9785_Source_of_Funds.Potential_Replacement_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9572_Risk_Portfolio_Asset_Class:The current portfolio overall weighted allocation in Equity is [73.50%]  and Fixed Income is [26.50%] with an overall weighted standard deviation of [7.5375]. This allocation should be reviewed given the client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] and/or risk tolerance [Aggressive] as it places the client's overall portfolio allocation outside the recommended mixed in Equity and Fixed Income funds and an acceptable weighted risk range. [To help reduce clients investment and market risks, a diversified portfolio mixed in EQ to FI funds are as follows,  risk tolerance Con 20/80, Con-Plus 40/60, Mod 60/40, Mod-Plus 75/25 and Agg 90/10.](AP9572_Risk_Portfolio_Asset_Class.Outside_Range_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9011_Tot_Inv_Assets:Based on the client's age [26] and total investment assets [$2.00].  please explain how this is affordable and how it fits into the client's overall portfolio.(AP9011_Tot_Inv_Assets.Owner_Age_Rule_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9031_Investment_Experience_Less_than_1_Year_or_CD_only:The client has less than five years investment experience in market-based investments which may indicate a lack of or limited understanding of the risks, fees and mechanics associated with this purchase(s) and how it helps meet the client's needs and goals. What is your assurance that the client understands the risks associated with this investment?(AP9031_Investment_Experience_Less_than_1_Year_or_CD_only_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9530_Inv_Obj_Risk:The client's investment objective [Safety of Principal/Income_with_Capital_Preservation] and risk tolerance [Aggressive] are inconsistent and needs to be addressed.(AP9530_Inv_Obj_Risk.Inconsistent_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9534_Investment_Objective:The client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] requires review in light of the potential investment risks associated with the sub account investments of variable products. Please provide the rationale as to why the client is purchasing a variable annuity as he/she appears to be risk averse.(AP9534_Investment_Objective.Safety_of_Principal_VA_1)"
+            }
+         ],
+         "ProductType":"PRU-IRA Traditional",
+         "PolicyFaceAmount":21000
+      },
+      "daysremaining":40,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"TestBT , TestBT ",
+      "contract":"TestContract_Agent13",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-05",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9581_Tax_Bracket_Low:The client's tax bracket [15.00%] indicates questionable need for tax-deferral. This purchase may not be  appropriate if other needs are not present. Please explain how this product is suitable in light of the client's low tax bracket.(AP9581_Tax_Bracket_Low.Below_Threshold_VA_NQ_No_Rider_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9585_Time_Horizon:The client's time horizon [1 years] may not be appropriate for an annuity or life policy with a potential CDSC if early withdrawals/surrenders occurs. Please provide rationale for this purchase given the client's relatively short time horizon. (AP9585_Time_Horizon.Too_Low_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$25,000.00] and their estimated monthly expenses are [$10,000.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9785_Source_of_Funds:There is question as to whether or not this application is replacement related.  Please contact the agent to verify: 1) if the app's replacement question was incorrectly completed; 2) if the app's SOF question (i.e., 'Annuity or Life Insurance') was incorrectly completed; or 3) if there was a keying error made at the service center.If this matter is the result of an improperly completed application, the agent is to submit an amended (client initialed and dated) application to the service center highlighting the correction and also comply with all associated replacement processes, if applicable.  If this matter is the result of a service center keying error, select 'Pend VA/VL Keying Error' to have the Service Center resubmit the case with the correct data.(AP9785_Source_of_Funds.Potential_Replacement_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9572_Risk_Portfolio_Asset_Class:The current portfolio has a standard deviation of [11.3000]. This allocation should be reviewed given the client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] and/or risk tolerance [Aggressive] as it places the client's overall fund allocation outside the recommended weighted risk range.(AP9572_Risk_Portfolio_Asset_Class.Outside_Range_SCS_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9011_Tot_Inv_Assets:Based on the client's age [26] and total investment assets [$2.00].  please explain how this is affordable and how it fits into the client's overall portfolio.(AP9011_Tot_Inv_Assets.Owner_Age_Rule_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9031_Investment_Experience_Less_than_1_Year_or_CD_only:The client has less than five years investment experience in market-based investments which may indicate a lack of or limited understanding of the risks, fees and mechanics associated with this purchase(s) and how it helps meet the client's needs and goals. What is your assurance that the client understands the risks associated with this investment?(AP9031_Investment_Experience_Less_than_1_Year_or_CD_only_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9514_Age_Income_LNW:The illiquid nature of the annuity coupled with the IRS restriction on penalty-free withdrawals may create a negative scenario for your client in the event that he or she chooses to surrender the contract. Given the client's age and number of years until retirement, it may be more cost effective for this client to consider other investment options, e.g., mutual funds. Please indicate how this was addressed with the client.(AP9514_Age_Income_LNW.NQ_Owner_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9530_Inv_Obj_Risk:The client's investment objective [Safety of Principal/Income_with_Capital_Preservation] and risk tolerance [Aggressive] are inconsistent and needs to be addressed.(AP9530_Inv_Obj_Risk.Inconsistent_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9534_Investment_Objective:The client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] requires review in light of the potential investment risks associated with the sub account investments of variable products. Please provide the rationale as to why the client is purchasing a variable annuity as he/she appears to be risk averse.(AP9534_Investment_Objective.Safety_of_Principal_VA_1)"
+            }
+         ],
+         "ProductType":"SCS NQ Series B",
+         "PolicyFaceAmount":10000
+      },
+      "daysremaining":41,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"TestBT , TestBT ",
+      "contract":"Mar02_Other12",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-03-05",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$25,000.00] and their estimated monthly expenses are [$10,000.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [61.00%]  and Fixed Income is [39.00%] with an overall weighted standard deviation of [6.3300]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9785_Source_of_Funds:There is question as to whether or not this application is replacement related.  Please contact the agent to verify: 1) if the app's replacement question was incorrectly completed; 2) if the app's SOF question (i.e., 'Annuity or Life Insurance') was incorrectly completed; or 3) if there was a keying error made at the service center.If this matter is the result of an improperly completed application, the agent is to submit an amended (client initialed and dated) application to the service center highlighting the correction and also comply with all associated replacement processes, if applicable.  If this matter is the result of a service center keying error, select 'Pend VA/VL Keying Error' to have the Service Center resubmit the case with the correct data.(AP9785_Source_of_Funds.Potential_Replacement_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9011_Tot_Inv_Assets:Based on the client's age [26] and total investment assets [$2.00].  please explain how this is affordable and how it fits into the client's overall portfolio.(AP9011_Tot_Inv_Assets.Owner_Age_Rule_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9031_Investment_Experience_Less_than_1_Year_or_CD_only:The client has less than five years investment experience in market-based investments which may indicate a lack of or limited understanding of the risks, fees and mechanics associated with this purchase(s) and how it helps meet the client's needs and goals. What is your assurance that the client understands the risks associated with this investment?(AP9031_Investment_Experience_Less_than_1_Year_or_CD_only_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9534_Investment_Objective:The client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] requires review in light of the potential investment risks associated with the sub account investments of variable products. Please provide the rationale as to why the client is purchasing a variable annuity as he/she appears to be risk averse.(AP9534_Investment_Objective.Safety_of_Principal_VA_1)"
+            }
+         ],
+         "ProductType":"SLF-Roth IRA",
+         "PolicyFaceAmount":22000
+      },
+      "daysremaining":41,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"New-M"
+   },
+   {  
+      "insuredname":"TestBT , TestBT ",
+      "contract":"Mar02_PA4",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-02-23",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9585_Time_Horizon:The client's time horizon [3 years] may not be appropriate for an annuity or life policy with a potential CDSC if early withdrawals/surrenders occurs. Please provide rationale for this purchase given the client's relatively short time horizon. (AP9585_Time_Horizon.Too_Low_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$25,000.00] and their estimated monthly expenses are [$10,000.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:No Action Needed: The current portfolio overall weighted allocation in Equity is [55.00%]  and Fixed Income is [45.00%] with an overall weighted standard deviation of [5.7220]. [Please note, both the weighted EQ/FI allocation and standard deviation have to fail for rule AP9572 to flag.](AP9717_BCM_Informational_Rules.Standard_Deviation_0)"
+            }
+         ],
+         "ProductType":"ING-403(b) ERISA TSA",
+         "PolicyFaceAmount":20000
+      },
+      "daysremaining":49,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Auto Escalate-Division"
+   },
+   {  
+      "insuredname":"TestBT , TestBT ",
+      "contract":"Mar02_Other4",
+      "agentId":"121932",
+      "product":"null",
+      "expirydate":"2015-02-23",
+      "notificationDesc":{  
+         "OmissionDetails":[  
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9572_Risk_Portfolio_Asset_Class:The current portfolio overall weighted allocation in Equity is [71.00%]  and Fixed Income is [29.00%] with an overall weighted standard deviation of [7.2600]. This allocation should be reviewed given the client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] and/or risk tolerance [Aggressive] as it places the client's overall portfolio allocation outside the recommended mixed in Equity and Fixed Income funds and an acceptable weighted risk range. [To help reduce clients investment and market risks, a diversified portfolio mixed in EQ to FI funds are as follows,  risk tolerance Con 20/80, Con-Plus 40/60, Mod 60/40, Mod-Plus 75/25 and Agg 90/10.](AP9572_Risk_Portfolio_Asset_Class.Outside_Range_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9585_Time_Horizon:The client's time horizon [4 years] may not be appropriate for an annuity or life policy with a potential CDSC if early withdrawals/surrenders occurs. Please provide rationale for this purchase given the client's relatively short time horizon. (AP9585_Time_Horizon.Too_Low_1)"
+            },
+            {  
+               "Color":"#00ff00",
+               "Desc":"AP9717_BCM_Informational_Rules:The client's estimated net monthly income is [$25,000.00] and their estimated monthly expenses are [$10,000.00].(AP9717_BCM_Informational_Rules.Monthly_Est_Income_and_Expenses_0)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9785_Source_of_Funds:There is question as to whether or not this application is replacement related.  Please contact the agent to verify: 1) if the app's replacement question was incorrectly completed; 2) if the app's SOF question (i.e., 'Annuity or Life Insurance') was incorrectly completed; or 3) if there was a keying error made at the service center.If this matter is the result of an improperly completed application, the agent is to submit an amended (client initialed and dated) application to the service center highlighting the correction and also comply with all associated replacement processes, if applicable.  If this matter is the result of a service center keying error, select 'Pend VA/VL Keying Error' to have the Service Center resubmit the case with the correct data.(AP9785_Source_of_Funds.Potential_Replacement_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9011_Tot_Inv_Assets:Based on the client's age [26] and total investment assets [$2.00].  please explain how this is affordable and how it fits into the client's overall portfolio.(AP9011_Tot_Inv_Assets.Owner_Age_Rule_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9031_Investment_Experience_Less_than_1_Year_or_CD_only:The client has less than five years investment experience in market-based investments which may indicate a lack of or limited understanding of the risks, fees and mechanics associated with this purchase(s) and how it helps meet the client's needs and goals. What is your assurance that the client understands the risks associated with this investment?(AP9031_Investment_Experience_Less_than_1_Year_or_CD_only_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9530_Inv_Obj_Risk:The client's investment objective [Safety of Principal/Income_with_Capital_Preservation] and risk tolerance [Aggressive] are inconsistent and needs to be addressed.(AP9530_Inv_Obj_Risk.Inconsistent_1)"
+            },
+            {  
+               "Color":"#ffff00",
+               "Desc":"AP9534_Investment_Objective:The client's stated investment objective [Safety of Principal/Income_with_Capital_Preservation] requires review in light of the potential investment risks associated with the sub account investments of variable products. Please provide the rationale as to why the client is purchasing a variable annuity as he/she appears to be risk averse.(AP9534_Investment_Objective.Safety_of_Principal_VA_1)"
+            }
+         ],
+         "ProductType":"ING-IRA Rollover",
+         "PolicyFaceAmount":14000
+      },
+      "daysremaining":49,
+      "daysRemainfuture":0,
+      "suitabilitystatus":"Pend-Equities/Fixed Inc/Options"
+   }
+]

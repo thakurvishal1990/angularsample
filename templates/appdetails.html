@@ -1,0 +1,1785 @@
+<div ng-controller="appDetailsController as appdet"> 
+<div class="loading-background hide">
+                            <!-- Toggle the class hide on success of service calls-->
+                            <div class="loading"></div>
+                        </div>
+				<div class="view-req-description-background hide"><!-- Toggle the class hide on success of service calls -->
+					<div class="description-popup clearfix"><div class="pull-left desc-close"><span class="close"></span></div><div class="pull-left desc-content"><p class="content"></p><button class="exit one-button-width">OK</button></div></div>
+					</div>
+                    
+                    <ul class="clearfix dropdown-menu hide req-data-content-popup list-unstyled">
+                                                        <li class="upload-doc hide">
+                                    <a class="clearfix" href="#">
+                                        <span class="upload-doc-img pull-left"></span>
+                                        <span class="pull-left">Upload Document</span>
+                                        
+                                    </a><div class="divider"></div>
+                                    </li>
+                                                        <li class="view-req-description" id="viewReqId">
+                                    <a class="clearfix" href="#">
+                                        <span class="view-req-description-img pull-left"></span>
+                                        <span class="pull-left">View Requirement Description</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li>
+                                        <li id="emailCase2" class="email-case-manager">
+                                    <a class="clearfix email-case-wrapper" href="#">
+                                        <span class="email-case-manager-img pull-left"></span>
+                                        <span class="pull-left">Email (Service Center)</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li>
+                                    <li id="emailOthers2" class="email-others">
+                                    <a class="clearfix email-others-wrapper" href="#">
+                                        <span class="email-others-img pull-left"></span>
+                                        <span class="pull-left email-oth-con">Email (Others)</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li>
+                                        <li class="contact-axa">
+                                        <a class="clearfix" href="#">
+                                        <span class="contact-axa-img pull-left"></span>
+                                        
+                                        <span class="pull-left">View Key Contacts</span>
+                                        </a>
+                                        
+                                    </li>
+                                                        
+                                                    </ul>
+                    
+                        <div class="appdetails">
+
+							<div class="view-req-description-background-contactAxa contactAxa hide">
+    <!-- Toggle the class hide on success of service calls -->
+    <div class="description-popup-contactAxa clearfix">
+        <!--<div class="pull-left desc-close"><span class="contactAxa-close close"></span></div>-->
+        <div class="contact clearfix">
+            <div class="contact-header-wrapper">
+                <header class="contact-header clearfix">
+                    <div class="text-center"><span class="service-name-contact">Contact  AXA</span><span class="contactAxa-close close"></span>
+                    </div>
+                </header>
+            </div>
+            <div class="description-popup-contactAxa-content">
+                <div class="contact-details-header">
+                    <ul class="clearfix list-unstyled">
+                        <li class="col-xs-4">
+                            <span>Service</span>
+                        </li>
+                        <li class="col-xs-4">
+                            <span>Phone Number</span>
+                        </li>
+                        <li class="col-xs-4">
+                            <span>Hours</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-details-body">
+                    <div class="contact-inner-content">
+                        <p>Annuities</p>
+                        <div>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Accumulator</span><span class="register"></span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 789-7771</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Friday 8:30 AM - 5:30 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Accumulator</span><span class="register"></span> New Business</li>
+                                <li class="col-xs-4"><span>(877) 433-4238</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Friday 9:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Crossings</span><span class="register"></span>
+                                </li>
+                                <li class="col-xs-4"><span>800) 862-6669</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Thursday 8:00 AM - 6:30 PM ET</span> <span>Friday 8:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>EQUI-VEST</span><span class="register"></span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 628-6673</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Thursday 8:00 AM - 6:30 PM ET</span> <span>Friday 8:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Income Pay</span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 245-1230</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Friday 9:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Momentum/Retirement Strategies</span><span class="sm-icon">SM</span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 528-0204</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Thursday 8:30 AM - 6:30 PM ET</span> <span>Friday 8:30 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>Single Premium Deferred Annuity(SPDA)</span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 628-7789</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Friday 9:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <ul class="clearfix list-unstyled">
+                                <li class="col-xs-4"><span>300 Plus Series</span>
+                                </li>
+                                <li class="col-xs-4"><span>(800) 248-2138</span>
+                                </li>
+                                <li class="col-xs-4"><span>Monday - Friday 9:00 AM - 5:00 PM ET</span>
+                                </li>
+                            </ul>
+                            <div class="contact-inner-content">
+                                <p>Life Insurance</p>
+                                <div>
+                                    <ul class="clearfix list-unstyled">
+                                        <li class="col-xs-4"><span>Advisor Service Line</span>
+                                        </li>
+                                        <li class="col-xs-4"><span>(800) 888-9763</span>
+                                        </li>
+                                        <li class="col-xs-4"><span>Monday - Friday 8:00 AM - 6:30 PM ET</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="clearfix list-unstyled">
+                                        <li class="col-xs-4"><span></span>
+                                        </li>
+                                        <li class="col-xs-4"><span>(800) 777-6510</span>
+                                        </li>
+                                        <li class="col-xs-4"><span>Monday - Friday 8:00 AM - 6:30 PM ET</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-details-header">
+                        <ul class="clearfix list-unstyled">
+
+                            <li class="col-xs-4"><span>MONY</span>
+                            </li>
+                            <li class="col-xs-4"><span>Phone Number</span>
+                            </li>
+                            <li class="col-xs-4"><span>Hours</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="contact-inner-content">
+                        <ul class="clearfix list-unstyled">
+                            <li class="col-xs-4"><span>Annuities</span>
+                            </li>
+                            <li class="col-xs-4"><span>(800) 487-6669</span>
+                            </li>
+                            <li class="col-xs-4"><span>Monday - Thursday 8:00 AM - 6:30 PM ET</span><span> Friday 8:00 AM - 5:00 PM ET</span>
+                            </li>
+                        </ul>
+                        <ul class="clearfix list-unstyled">
+                            <li class="col-xs-4"><span>Life Insurance</span>
+                            </li>
+                            <li class="col-xs-4"><span>(800) 487-6669</span>
+                            </li>
+                            <li class="col-xs-4"><span>Monday - Thursday 8:00 AM - 6:30 PM ET</span> <span>Friday 8:00 AM - 5:00 PM ET</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-details-header">
+                    <ul class="clearfix list-unstyled">
+
+                        <li class="col-xs-4"><span>AXA Advisors</span>
+                        </li>
+                        <li class="col-xs-4"><span>Phone Number</span>
+                        </li>
+                        <li class="col-xs-4"><span>Hours</span>
+                        </li>
+
+                    </ul>
+                </div>
+				<div class="contact-inner-content">
+                <ul class="clearfix list-unstyled">
+                    <li class="col-xs-4"><span>Brokerage Products</span>
+                    </li>
+                    <li class="col-xs-4"><span>(866) 487-7484</span>
+                    </li>
+                    <li class="col-xs-4"><span>Monday - Friday 8:30 AM - 6:30 PM ET</span>
+                    </li>
+                </ul>
+				</div>
+            </div>
+
+            <div class="desc-content">
+                <button class="exit one-button-width contact-ok">OK</button>
+            </div>
+        </div>
+    </div>
+ </div>
+
+                            <div class="new-appdetails-app-details">
+                                <header class="new-appdetails-header clearfix">
+
+                                    <div><span class="service-name">New Business List &gt; Application Details for Contract &#58; {{appdata.ApplicationDetails.ApplicationInformation.ContractNo}}</span>
+                                    </div>
+                                    <!--<a href="javascript:" class="refresh-appdetails-wrapper pull-right"> <span class="">Refresh</span> </a>-->
+                                    <a href="javascript:" class="app-details-go-back pull-left"> <span class="">Back</span>
+                                        <!-- <span class=""><img src="images/refresh.png"/></span> -->
+                                    </a>
+                                    <!-- <span class="pull-right">Refresh</span> -->
+
+                                </header>
+                            </div>
+							
+
+							<!-- Changes made 25-02-2015 -->
+                            <div class="scroll-content">
+                                <div class="notification-details clearfix">
+                                    <div class="col-xs-8">
+                                        <div class="row">
+                                            <div class="policy-contract col-xs-6">
+                                                <div class="policy-contract-left col-xs-9 col-md-10">
+                                                    <strong class="policy-contract-head">Policy/Contract# :</strong><span class="policy-contract-content">{{appdata.ApplicationDetails.ApplicationInformation.ContractNo}}</span>
+                                                </div>
+                                                <div class="policy-contract-right col-xs-3 col-md-2">
+                                                    <span>|</span>
+                                                </div>
+                                            </div>
+                                            <div class="insured-name col-xs-6">
+                                                <div class="insured-name-left col-xs-10">
+                                                    <strong class="insured-name-head">Insured Name :</strong><span class="insured-name-content">{{appdata.ApplicationDetails.InsuredCoverageInformation[0].InsuredName}}</span>
+                                                </div>
+                                                <div class="insured-name-right col-xs-2">
+                                                    <span>|</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <div class="row">
+                                            <div class="product-notification col-xs-8">
+                                                <strong class="product-notification-head">Product : </strong><span class="product-notification-content">{{appdata.ApplicationDetails.ApplicationInformation.Product}}</span>
+                                            </div>
+	<!-- Changes made 25-02-2015 -->
+											
+											<!-- Print Icon Added -->
+
+											<div class="print-images col-xs-2">
+                                                <a href= "#" data-role="none" class="pull-left print-type-icon" data-toggle="modal" data-target="#printWrapper">
+													<span class="pull-left icon app-print-icon"></span>
+													<span class="pull-left print-app-content">Print</span>
+												</a>
+ 											</div>
+
+											<!-- Print Icon Added -->
+                                            <div class="notification-images col-xs-2">
+                                                <div class="notification-type-icon navbar-toggle">
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<ul class="clearfix dropdown-menu notifications-popover-wrapper hide list-unstyled">
+                                                       
+										<li id="emailCase1" class="email-case-manager">
+									<a class="clearfix email-case-wrapper" href="#">
+                                        <span class="email-case-manager-img pull-left"></span>
+										<span class="pull-left">Email (Service Center)</span>
+										
+									</a>
+									<div class="divider"></div>
+                                    </li>
+									<li id="emailOthers1" class="email-others">
+									<a class="clearfix email-others-wrapper" href="#">
+										<span class="email-others-img pull-left"></span>
+                                        <span class="pull-left email-oth-con">Email (Others)</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li>
+                                        <li class="contact-axa">
+                                        <a class="clearfix" href="#">
+                                        <span class="contact-axa-img pull-left"></span>
+                                        
+                                        <span class="pull-left">View Key Contacts</span>
+                                        </a>
+                                        
+                                    </li>
+                                                        
+                                                    </ul>
+                                </div>
+							
+                                <div class="status-line">
+                                    <p class="no-status hide" id="statusDetails">
+                                        App status visual representation not available for this policy / contract.
+                                    </p>
+                                    <!-- <div class="status-line-wrapper"> -->
+                                    <ul class="status-line-wrapper list-unstyled clearfix" >
+                                        <li ng-class="{'cust-col-xs-4' : (appdata.ApplicationDetails.ImageIndicators.length==4)}" ng-repeat="imgind in appdata.ApplicationDetails.ImageIndicators">
+                                        <span ng-class="{'process-done process' : (imgind.Color == 'Green'),'processing process' : (imgind.Color == 'Blue'),'process' : ((imgind.Color != 'Green') && (imgind.Color != 'Blue'))}"><span ng-if="imgind.Color != 'Green'">{{$index + 1}}</span></span>
+                                            <h2>
+                                                <span>{{imgind.Desc}}</span>
+                                            </h2>
+                                        </li>
+                                        <!-- <li class="cust-col-xs-4">
+                                            <span id="step1" class="processing process">2</span>
+                                            <h2>
+                                                <span>Requirements Received &amp; Reviewed</span>
+                                            </h2>
+                                        </li>
+                                        <li class="cust-col-xs-4">
+                                            <span id="step1" class=" process">3</span>
+                                            <h2>
+                                                <span>Offer</span>
+                                            </h2>
+                                        </li>
+                                        <li class="cust-col-xs-4">
+                                            <span id="step1" class=" process">4</span>
+                                            <h2>
+                                                <span>Offer Accepted</span>
+                                            </h2>
+                                        </li> -->
+                                    </ul>
+                                    
+                                    <!-- </div> -->
+                                </div>
+                                <!-- <div class="clearfix progress-bar-wrapper">
+								<ul id="progressbar" class="status-line-animate list-unstyled clearfix">
+    <li class="bt-progress progress-done">
+        <div class="progress-bar">
+                       
+        </div>
+        <div class="bt-progress-content-wrapper">
+            <div class="process-wrapper clearfix">
+            <div class="process-done process">
+                <div class="process-done-content">1</div>
+            </div>
+        </div>
+            <h2 class="bt-progress-content"><span>Application Received</span></h2>
+        </div>
+    </li>
+    <li class="bt-progress progress-done">
+        <div class="progress-bar">
+                       
+        </div>
+        <div class="bt-progress-content-wrapper">
+            <div class="process-wrapper clearfix">
+            <div class="process-done process">
+                <div class="process-done-content">1</div>
+            </div>
+        </div>
+            <h2 class="bt-progress-content"><span>Requirements Received</span></h2>
+        </div>
+        
+    </li>
+     <li class="bt-progress progress-done">
+        <div class="progress-bar">
+                       
+        </div>
+        <div class="bt-progress-content-wrapper">
+            <div class="process-wrapper clearfix">
+            <div class="process-done process">
+                <div class="process-done-content">1</div>
+            </div>
+        </div>
+            <h2 class="bt-progress-content"><span>UW Decision</span></h2>
+        </div>
+
+    </li>
+    <li class="bt-progress">
+        <div class="progress-bar">
+                       
+        </div>
+        <div class="bt-progress-content-wrapper">
+            <div class="process-wrapper clearfix">
+            <div class="processing process">
+                <div class="process-content">4</div>
+            </div>
+        </div>
+            <h2 class="bt-progress-content"><span>Policy Issued</span></h2>
+        </div>
+    </li>
+</ul> </div>-->
+									<!-- Email Popup -->
+
+									<div id="myModal" tabindex="-1" class="modal fade email-popup">
+    <div class="modal-dialog email-popup-wrapper">
+        <div class="modal-content">
+            <div class="modal-header email-popup-header-wrapper clearfix">
+
+                <header class="menuBar col-xs-12">
+                    <div class="row">
+                        <!-- body content //-->
+                        <div class="col-xs-4 col-lg-3">
+                            <div class="axaLogo">
+                                <!-- <a href="/axae/myportal/rad/" class="ui-link"> -->
+                                    <img src="./img/logo-AXA.png" />
+                                <!-- </a> -->
+                            </div>
+                        </div>
+                        <div class="col-xs-8 col-lg-9 email-popup-head-right"><span class="pull-right">Business Tracker</span>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div class="modal-body">
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Tomail" class="email-popup-label" required="required"  data-message="Please enter the TO mail address">To:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Tomail" placeholder="" readonly="readonly" >
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Copymail" class="email-popup-label">Cc:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Copymail" placeholder="" value="">
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Bccmail" class="email-popup-label">Sender:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Bccmail" placeholder="" value="">
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="SenderEmailmail" class="email-popup-label">Sender's Email Address:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="SenderEmailmail" placeholder="" value="" readonly>
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Subjectmail" class="email-popup-label">Subject:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Subjectmail" placeholder="" readonly>
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Insuredmail" class="email-popup-label">Insured:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Insuredmail" placeholder="" readonly>
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Contractnumbermail" class="email-popup-label">Contract Number:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Contractnumbermail" placeholder="" readonly>
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-input-container">
+                    <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="Lobmail" class="email-popup-label">Line Of Business:</label>
+                    </div>
+                    <div class="col-xs-8 col-lg-9 email-popup-input-wrapper">
+                        <input type="email" class="form-control" id="Lobmail" placeholder="" readonly>
+                    </div>
+                </div>
+                <div class="input-group col-xs-12 email-popup-body-container">
+                    <!-- <div class="col-xs-4 col-lg-3 email-popup-label-container">
+                        <label for="SubjectBodymail" class="email-popup-label"></label>
+                    </div> -->
+                    <!-- <div class="col-xs-12 col-md-10 col-lg-11 email-popup-subject-wrapper"> -->
+                    <div class="col-xs-12 email-popup-subject-wrapper">
+                        <div class="email-popup-subject-container" contenteditable="true" id="SubjectBodymail" placeholder="">
+                            <div id="Email-Body"><strong id="Req-Type">Notification Type:</strong><span>&nbsp;</span><span id="Req-Info">New Requirement Information</span>
+                            </div>
+                            <div class="email-popup-finance"><span>Financial Professional</span><span>&nbsp;</span><span class="email-italic">(Type your message here):</span>
+                            </div>
+                          		<div class="show" id="mail-content">
+										<br /> <br /> <br /> <br /> <br />
+							</div>
+                            <div class="suit-content omissionDetail hide">
+                            	<h4>Additional Details:</h4>
+                                <div class="hide" id="missing-details"><span></span>
+                                </div>
+                                <table class="omissionTable">
+
+								</table>
+                            </div>
+                            <div class="suit-details-block hide">
+                                <h4>Additional Details:</h4>
+                                <!-- <ul class="pending">
+                                    
+                                </ul> -->
+                                <table class="pending">
+	
+							    <thead class="suit-header">
+							        <th class="priorityWrapper">
+							            <div class="priority">Priority</div>
+							        </th>
+							        <th class="descrWrapper">
+							            <div class="descr">Description</div>
+							        </th>
+							    </thead>
+								<tbody>
+								</tbody>
+							</table>
+							</div>
+                            <div class="business-list-container hide">
+                                <h4>Additional Details:</h4>
+                                <!-- <ul class="list-unstyled app-info-content-block">
+                                    <li class="clearfix">
+                                        <div class="col-xs-6 col-sm-5 col-lg-3 email-popup-policy"><strong>Policy Contract# </strong></div>
+                                        <div class="col-xs-6 email-popup-policy-con"><span></span></div>
+                                    </li>
+
+                                    <li class="clearfix">
+                                        <div class="col-xs-6 col-sm-5 col-lg-3 email-popup-lob"><strong>Line of Business </strong></div>
+                                        <div class="col-xs-6 email-popup-lob-con"><span></span></div>
+									</li>
+									<li class="clearfix">
+										<div class="col-xs-6 col-sm-5 col-lg-3 email-popup-prod"><strong>Product </strong></div>
+                                        <div class="col-xs-6 email-popup-prod-con"><span></span></div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="col-xs-6 col-sm-5 col-lg-3 email-popup-face"><strong>Face Amount </strong></div>
+                                        <div class="col-xs-6 email-popup-face-con"><span></span></div>
+                                    </li>
+                                </ul> -->
+                                <table class="businessTable">
+										<tbody>
+										<tr>
+										<td class="email-popup-policy" ><strong>Policy Contract# </strong></td>
+										<td class="email-popup-policy-con"><span></span></td>
+										</tr>
+											<tr>
+										<td class="email-popup-lob"><strong>Line of Business </strong></td>
+										<td class="email-popup-lob-con"><span></span></td>
+										</tr>
+											<tr>
+										<td class="email-popup-prod"><strong>Product </strong></td>
+										<td class="email-popup-prod-con"><span></span></td>
+										</tr>
+										<tr>
+										<td class="email-popup-face"><strong>Face Amount </strong></td>
+										<td class="email-popup-face-con"><span></span></td>
+										</tr>
+										</tbody>
+										</table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer email-popup-send-container">
+                <span class="btn btn-default email-popup-cancel" data-dismiss="modal">Cancel</span>
+                <span class="btn btn-primary email-popup-send disabled" data-dismiss="modal">Send</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="successModal" class="modal fade email-success-popup">
+    <div class="modal-dialog email-success-popup-wrapper">
+        <div class="modal-content email-success-popup-container">
+            <div class="modal-body text-center email-popup-success-msg">
+                <strong>Your email has been sent</strong>
+            </div>
+            <div class="modal-footer email-popup-successsend-container">
+                <span class="btn btn-default email-popup-successsend" data-dismiss="modal">OK</span>
+            </div>
+        </div>
+    </div>
+</div>
+			<div id="emailValidModal" class="modal fade email-success-popup">
+		<div class="modal-dialog email-success-popup-wrapper">
+			<div class="modal-content email-success-popup-container">
+				<div class="modal-body text-center email-popup-success-msg">
+					<strong>Please enter valid email address in TO</strong>
+				</div>
+				<div class="modal-footer email-popup-successsend-container">
+					<span class="btn btn-default" id="emailValidModalOKBtn" data-dismiss="modal">OK</span>
+				</div>
+			</div>
+		</div>
+	</div>
+								
+                                <!-- <div class="contractinfo-req-menu hide clearfix">
+					<a id="contract-label" class="contractinfo-select" href="#">Contract Information</a>
+					<a id="req-label" href="#" class="col-blue">Requirements</a>
+				</div> -->
+                                <ul class="nav nav-tabs contractinfo-req-menu" role="tablist">
+                                    <li class="active contractinfo">
+                                        <a showtab="" href="#contract_info" role="tab" data-toggle="tab">Contract Information</a>
+                                    </li>
+                                    <li class="require">
+                                        <a showtab="" href="#requirements" role="tab" data-toggle="tab" id="requirementLink">Requirements</a>
+                                    </li>
+                                    <li class="suitreview">
+                                        <a showtab="" href="#suit_review" role="tab" data-toggle="tab" id="suitLink">Suitability Review</a>
+                                    </li>
+                                    <li class="transferdetails">
+                                        <a showtab="" href="#transfer_details" role="tab" data-toggle="tab" id="transferLink">Transfer Details</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content app-details-tab-content">
+                                    <div class="tab-pane active" id="contract_info">
+                                        <div class="panel-group" id="accordion">
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapseOne">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Application Information </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseOne" class="collapse in">
+                                                    <div class="panel-body accordion_body">
+
+                                                        <div class="app-info-content clearfix">
+                                                            <p class="no-content one hide" id="application-info">
+                                                                No information available for the selected contract
+                                                            </p>
+                                                            <div class="appinfo-list-one col-xs-4">
+                                                                <ul class="list-unstyled app-info-content-block">
+                                                                    <li>
+                                                                        <label>Policy Contract# :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.ContractNo}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>App Status :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.AppStatus}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Line of Business :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.LineOfBusiness}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Product : </label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.Product}}</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="appinfo-list-two col-xs-4">
+                                                                <ul class="list-unstyled app-info-content-block">
+                                                                    <li>
+                                                                        <label>App Status Change Date:</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.AppStatusChangeDate}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Cash with App :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.CashWithAppInd}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>App Received :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.AppReceivedDate}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Last Viewed : </label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.LastViewed}}</label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="appinfo-list-three col-xs-4">
+                                                                <ul class="list-unstyled app-info-content-block">
+                                                                    <li>
+                                                                        <label>Face Amount :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.FaceAmount}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Cash with App Amount :</label>
+                                                                        <label class="app-content">{{appdata.ApplicationDetails.ApplicationInformation.CashWithAppAmount}}</label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Method App Received :</label>
+                                                                        <label class="app-content"></label>
+                                                                    </li>
+                                                                    <li>
+                                                                        <label>Application Signed Date :</label>
+                                                                        <label class="app-content"></label>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapseTwo">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Insured & Coverage Info </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseTwo" class="collapse in">
+                                                    <div class="panel-body">
+                                                        <p class="no-content hide" id="insured-coverage-info">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <ul class="insured-info-head list-unstyled clearfix">
+                                                            <li class="insured_name_head_wrapper col-xs-3">
+                                                                <span class="insured_name_head"> Insured Name </span>
+                                                            </li>
+                                                            <li class="insured_benefit_head_wrapper col-xs-3">
+                                                                <span class="insured_benefit_head"> Benefit / Coverage </span>
+                                                            </li>
+                                                            <li class="insured_amount_head_wrapper col-xs-3">
+                                                                <span class="insured_amount_head"> Amount </span>
+                                                            </li>
+                                                            <li class="insured_rating_head_wrapper col-xs-3 no-right-border">
+                                                                <span class="insured_rating_head" id="Insr_Rat"> Insured Rating </span>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="insured-info-content-wrapper">
+
+                                                            <ul class="insured-info-content list-unstyled clearfix" ng-repeat="insured in appdata.ApplicationDetails.InsuredCoverageInformation">
+                                                                <li class="insured_name_content_wrapper col-xs-3">
+                                                                    <span class="insured_name_content">{{insured.InsuredName}} </span>
+                                                                </li>
+                                                                <li class="insured_benefit_content_wrapper col-xs-3">
+                                                                    <span class="insured_benefit_content">{{insured.CoverageDesc}}   </span>
+                                                                </li>
+                                                                <li class="insured_amount_content_wrapper col-xs-3">
+                                                                    <span class="insured_amount_content">{{insured.Amount}}   </span>
+                                                                </li>
+                                                                <li class="insured_rating_content_wrapper col-xs-3">
+                                                                    <span class="insured_rating_content">{{insured.IsrdRating}} </span>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#planCollapse">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Plan Information </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="planCollapse" class="collapse in">
+                                                    <div class="panel-body accordion_body">
+                                                        <p class="no-content hide" id="planCollapseNoInfo">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <div class="plan-info-content">
+                                                            <ul class="plan-info list-unstyled clearfix"><li class="col-xs-4"><label><strong>Plan #:</strong></label><label>1234</label></li><li class="col-xs-4"><label><strong>Plan Name :</strong></label><label> STARS EDC </label></li><li class="col-xs-4"><label><strong>Plan Type :</strong></label><label>EQ STRATEGIES</label></li></ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#antDetCollapse">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Annuitant Details </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="antDetCollapse" class="collapse in">
+                                                    <div class="panel-body accordion_body">
+                                                        <p class="no-content hide" id="antDetNoInfo">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <div class="ant-det-content">
+                                                            <ul class="ant-det list-unstyled clearfix"><li class="col-xs-4"><label><strong>Annuitant Name:</strong></label><label></label></li><li class="col-xs-4"><label><strong>Details :</strong></label><label> </label></li><li class="col-xs-4"><label><strong>Amount :</strong></label><label></label></li></ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapseThree">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Associate Summary </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseThree" class="collapse in">
+                                                    <div class="panel-body">
+                                                        <p class="no-content hide" id="associate-summary">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <ul class="associate-info-head list-unstyled clearfix">
+                                                            <!-- <ul> -->
+                                                            <!-- <li class="cf"> -->
+                                                            <li class="associate_name_head_wrapper col-xs-3">
+                                                                <span class="associate_name_head"> Name </span>
+                                                            </li>
+                                                            <li class="associate_code_head_wrapper col-xs-3">
+                                                                <span class="associate_code_head"> Code </span>
+                                                            </li>
+                                                            <li class="associate_role_head_wrapper col-xs-3">
+                                                                <span class="associate_role_head"> Role </span>
+                                                            </li>
+                                                            <li class="associate_percentage_head_wrapper col-xs-3 no-right-border">
+                                                                <span class="associate_percentage_head"> Associate(%) </span>
+                                                            </li>
+                                                            <!-- </li> -->
+
+                                                            <!-- </ul> -->
+                                                        </ul>
+                                                        <!-- <div class="associate-info-content"> -->
+                                                        <div class="associate-info-content">
+                                                            <ul class="associate-info-content list-unstyled clearfix" ng-repeat="assoc in appdata.ApplicationDetails.AssociateSummary">
+
+                                                                <li class="associate_name_content_wrapper col-xs-3">
+                                                                    <span class="associate_name_content">{{assoc.AssociateName}}</span>
+                                                                </li>
+                                                                <li class="associate_code_content_wrapper col-xs-3">
+                                                                    <span class="associate_code_content">{{assoc.AssociateCode}}</span>
+                                                                </li>
+                                                                <li class="associate_role_content_wrapper col-xs-3">
+                                                                    <span class="associate_role_content">{{assoc.Role}}</span>
+                                                                </li>
+                                                                <li class="associate_percentage_content_wrapper col-xs-3 no-right-border">
+                                                                    <span class="associate_percentage_content">{{assoc.AssociatePct}}%</span>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapseFour">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Express Commission </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseFour" class="collapse in">
+                                                    <div class="panel-body accordion_body">
+                                                        <p class="no-content hide" id="expressionComm">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <div class="express-commission-content">
+                                                            <ul class="express-commission list-unstyled clearfix">
+                                                                <li class="col-xs-4">
+                                                                    <label><strong>Express Scheduled :</strong></label><label>{{appdata.ApplicationDetails.ExpressCommissionSummary.ExpressScheduled}}</label>
+                                                                </li>
+                                                                <li class="col-xs-4">
+                                                                    <label><strong>Express Eligible :</strong></label><label>{{appdata.ApplicationDetails.ExpressCommissionSummary.ExpressEligible}}</label>
+                                                                </li>
+                                                                <li class="col-xs-4">
+                                                                    <label><strong>Reason for Ineligibility :</strong></label><label>{{appdata.ApplicationDetails.ExpressCommissionSummary.IneligibilityReason}}</label>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapseFive">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Contact Information </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseFive" class="collapse in">
+                                                    <div class="panel-body">
+                                                        <p class="no-content hide" id="contractDetails">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <!-- <div class="contact-info-head">
+										<ul> -->
+                                                        <ul class="contact-info-head list-unstyled clearfix">
+                                                            <li class="contact_role_head_wrapper col-xs-3">
+                                                                <span class="contact_role_head"> Role </span>
+                                                            </li>
+                                                            <li class="contact_name_head_wrapper col-xs-3">
+                                                                <span class="contact_name_head"> Name </span>
+                                                            </li>
+                                                            <li class="contact_email_head_wrapper col-xs-3">
+                                                                <span class="contact_email_head"> Email ID </span>
+                                                            </li>
+                                                            <li class="contact_phone_head_wrapper col-xs-3 no-right-border">
+                                                                <span class="contact_phone_head"> Phone # </span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- </ul>
+										</div> -->
+                                                        <!-- <div class="contact-info-content"> -->
+                                                        <div class="contact-info-content-wrapper list-unstyled">
+                                                            <ul class="contact-info-content list-unstyled clearfix" ng-repeat="cont in appdata.ApplicationDetails.ContactInformation">
+                                                                <li class="contact_role_content_wrapper col-xs-3">
+                                                                    <span class="contact_role_content">{{cont.Role}}</span>
+                                                                </li>
+                                                                <li class="contact_name_content_wrapper col-xs-3">
+                                                                    <span class="contact_name_content">{{cont.Name}}</span>
+                                                                </li>
+                                                                <li class="contact_email_content_wrapper col-xs-3">
+                                                                    <span class="mailid contact_email_content">{{cont.EmailID}}</span>
+                                                                </li>
+                                                                <li class="contact_phone_content_wrapper col-xs-3">
+                                                                    <span class="contact_phone_content">{{cont.PhoneNumber}}</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <p class="no-data hide">
+                                            No contract information available for the selected policy / contract.
+                                        </p>
+                                    </div>
+                                    <div class="tab-pane" id="requirements">
+                                        <div class="panel-group" id="accordiontwo">
+                                            <div class="panel panel-container">
+                                                <div href="#collapsesecondOne" data-toggle="collapse" class="panel-heading accordion_head">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Requirement Summary </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapsesecondOne" class="panel-collapse collapse in">
+                                                    <div class="panel-body">
+                                                        <p class="no-content hide" id="requirementSummary">
+                                                            No information available for the selected contract
+                                                        </p>
+                                                        <!-- <div class="req-summary-info-head"> -->
+                                                        <ul class="req-summary-info-head list-unstyled clearfix">
+                                                            <!-- <li class="cf"> -->
+                                                            <li class="req_summary_name_head_wrapper col-xs-3">
+                                                                <span class="req_summary_name_head"> Name </span>
+                                                            </li>
+                                                            <li class="req_summary_agent_head_wrapper col-xs-3">
+                                                                <span class="req_summary_agent_head"> Agent </span>
+                                                            </li>
+                                                            <li class="req_summary_servicecenter_head_wrapper col-xs-3">
+                                                                <span class="req_summary_servicecenter_head"> Service Center </span>
+                                                            </li>
+                                                            <li class="req_summary_total_head_wrapper col-xs-3 no-right-border">
+                                                                <span class="req_summary_total_head"> Total </span>
+                                                            </li>
+
+                                                            <!-- </li> -->
+                                                        </ul>
+                                                        <!-- </div> -->
+                                                        <!-- <div class="req-summary-info-content"> -->
+                                                        <div class="req-summary-info-content-wrapper list-unstyled">
+                                                            
+                                                                <ul class="req-summary-info-content list-unstyled appdetails-color-bt clearfix">
+                                                                    <li class="req_summary_name_content_wrapper col-xs-3 ">
+                                                                        <span class="req_summary_name_content"> O/S Requirements </span>
+                                                                    </li>
+                                                                    <li class="req_summary_agent_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_agent_content">{{appdata.ApplicationDetails.RequirementsSummary.OutstandingRequirements.Agent}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_servicecenter_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_servicecenter_content">{{appdata.ApplicationDetails.RequirementsSummary.OutstandingRequirements.ServiceCenter}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_total_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_total_content">{{appdata.ApplicationDetails.RequirementsSummary.OutstandingRequirements.Total}}</span>
+                                                                    </li>
+                                                                </ul>
+                                                            
+                                                           
+                                                                <ul class="req-summary-info-content list-unstyled appdetails-color-bt clearfix">
+                                                                    <li class="req_summary_name_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_name_content"> Requirements Received Still Under Review </span>
+                                                                    </li>
+                                                                    <li class="req_summary_agent_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_agent_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsStillUnderReview.Agent}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_servicecenter_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_servicecenter_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsStillUnderReview.ServiceCenter}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_total_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_total_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsStillUnderReview.Total}}</span>
+                                                                    </li>
+                                                                </ul>
+                                                            
+                                                           
+                                                                <ul class="req-summary-info-content list-unstyled appdetails-color-bt clearfix">
+                                                                    <li class="req_summary_name_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_name_content"> Requirements Reviewed </span>
+                                                                    </li>
+                                                                    <li class="req_summary_agent_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_agent_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsReviewed.Agent}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_servicecenter_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_servicecenter_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsReviewed.ServiceCenter}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_total_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_total_content">{{appdata.ApplicationDetails.RequirementsSummary.RequirementsReviewed.Total}}</span>
+                                                                    </li>
+                                                                </ul>
+                                                            
+                                                           
+                                                                <ul class="req-summary-info-content list-unstyled appdetails-color-bt clearfix">
+                                                                    <li class="req_summary_name_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_name_content"> Total </span>
+                                                                    </li>
+                                                                    <li class="req_summary_agent_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_agent_content">{{appdata.ApplicationDetails.RequirementsSummary.TotalRequirements.Agent}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_servicecenter_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_servicecenter_content">{{appdata.ApplicationDetails.RequirementsSummary.TotalRequirements.ServiceCenter}}</span>
+                                                                    </li>
+                                                                    <li class="req_summary_total_content_wrapper col-xs-3">
+                                                                        <span class="req_summary_total_content">{{appdata.ApplicationDetails.RequirementsSummary.TotalRequirements.Total}}</span>
+                                                                    </li>
+                                                                </ul>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container">
+                                                <div href="#collapsesecondTwo" data-toggle="collapse" class="panel-heading accordion_head">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Requirement Details </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapsesecondTwo" class="panel-collapse collapse in">
+                                                    <div class="panel-body">
+
+                                                        <div class="req-details-div" id="req-details-ctr">
+														<div id="firstTable">
+                                                            <table class="req-dataTable dataTable" id="landingDataTable">
+                                                               
+                                                            </table>
+															</div>
+															<div class="hide" id="secondTable">
+															<table class="req-dataTable-one dataTable" id="landingDataTableOne">
+                                                                
+                                                            </table>
+															</div>
+                                                        </div>
+                                                        <p class="no-content hide" id="req-details">
+                                                            No information available for the selected contract
+                                                        </p>
+														
+														
+                                                        
+
+                                                        <footer class="req-details-footer req-details-footer-four-width requirements-footer">
+                                                            <ul class="clearfix list-unstyled app-footer-bt">
+                                                                <li class="req-footer-active" id="allActive">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> All </span>
+                                                                        <span class="count all count-active">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li  id="nigoRev" class="hide">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> NIGO REVIEW </span>
+                                                                        <span class="count nigoRev">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li  id="outStandReq" class="hide">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> O/S REQ'S </span>
+                                                                        <span class="count outstanding-req">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hide" id="reqUnderReview">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> UNDER REVIEW </span>
+                                                                        <span class="count req-under-review">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="hide" id="reviewReq">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> REVIEWED REQ. </span>
+                                                                        <span class="count reviewed-req">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="no-right-border req-footer-last hide" id="recReview">
+                                                                    <div class="req-footer-content">
+                                                                        <span class="req-footer-text"> RECEIVED REQ. </span>
+                                                                        <span class="count received-req">0</span>
+                                                                    </div>
+                                                                </li>
+                                                                <!-- <li class="hide">
+												<p>
+												RECEIVED REQUIREMENT
+												</p>
+												<span class="count received">3</span>
+												</li> -->
+                                                            </ul>
+                                                        </footer>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+									<div class="tab-pane" id="suit_review">
+										<section class="suit_review_wrapper">
+										<h5>
+                                            <span id="srs-heading" class="srs-head"></span>
+                                            <a href="#" class="launch-srslink hide" id="launchSrs" data-role="none">Launch Suitability Review System now</a>
+                                            <span class="omission-type-icon navbar-toggle">
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                
+                                            </span>
+										<ul class="clearfix dropdown-menu omission-popup hide list-unstyled">
+                                            <!-- <li id="emailCase3" class="email-case-manager">
+                                    <a class="clearfix email-case-wrapper" href="#" data-toggle="modal" data-target="#myModal" id="cmEmail">
+                                        <span class="email-case-manager-img pull-left"></span>
+                                        <span class="pull-left">Email (Case Manager)</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li> -->
+                                    <!-- <li id="emailOthers3" class="email-others">
+                                    <a class="clearfix email-others-wrapper" href="#" id="otherEmail">
+                                        <span class="email-others-img pull-left"></span>
+                                        <span class="pull-left email-oth-con">Email (Others)</span>
+                                        
+                                    </a>
+                                    <div class="divider"></div>
+                                    </li> -->
+                                        <li class="contact-axa">
+                                        <a class="clearfix" href="#"> 
+                                        <span class="contact-axa-img pull-left"></span>
+                                        
+                                        <span class="pull-left">View Key Contacts</span>
+                                        </a>
+                                        
+                                    </li>
+                                        </ul>
+										<!--<div class="omission-popup hide">
+                                                    <ul class="clearfix list-unstyled">
+                                                        <li class="contact-axa" id="contactToaxa">
+      												Contact AXA
+                                                        </li>
+                                                    </ul>
+                                                </div>--></h5>
+										<div class="omission">
+										
+										</div>
+										</section>
+									</div>
+
+                                    <div class="tab-pane" id="transfer_details">
+                                        <div class="panel-group" id="transferAccordion">
+                                            <div class="panel panel-container" id="TransferOne">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapsethirdOne">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Carrier 1 </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapsethirdOne" class="collapse in">
+                                                    <div class="panel-body accordion_body_transfer">
+                                                        <div class="" id="transferAccordionOne">
+                                                        <div class="transfer-detail-content clearfix">
+                                                            <p class="no-content one hide" id="application-info">
+                                                                No information available for the selected contract
+                                                            </p>
+                                                            <div class="transfer-detail-carrier-head clearfix">
+                                                                <ul class="list-unstyled clearfix transfer-content-block-one">
+                                                                    <li class="col-xs-4">
+                                                                        <label>Carrier Name :</label>
+                                                                        <label> New York Life </label>
+                                                                    </li>
+                                                                    <li class="col-xs-4">
+                                                                        <label>Contract #:</label>
+                                                                        <label> 9878887 </label>
+                                                                    </li>
+                                                                    <li class="col-xs-4">
+                                                                        <label>Transfer Status :</label>
+                                                                        <label> Pending </label>
+                                                                    </li>
+                                                                    
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            <div class="transfer-detail-container">
+                                                            <div class="transfer-detail-carrier-content-wrapper clearfix">
+                                                            <ul class="transfer-detail-carrier-content-head list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-head-sno-wrapper col-xs-1">
+                                                                <span class="transfer-detail-carrier-head-sno">  </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-head-commdesc"> Communication Description </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-head-comm"> Comments </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-status-wrapper col-xs-2 no-right-border">
+                                                                <span class="transfer-detail-carrier-head-status"> Status </span>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="transfer-detail-carrier-content appdetails-color-bt list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-content-sno-wrapper text-center col-xs-1">
+                                                                <span class="transfer-detail-carrier-content-sno"> 1 </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-content-commdes"> Transfer paperwork has been received by carrier and is in review process </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-content-comm"> Fax Acknowledgement Received </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-status-wrapper col-xs-2">
+                                                                <span class="transfer-detail-carrier-content-status">Open</span>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="transfer-detail-carrier-content appdetails-color-bt list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-content-sno-wrapper text-center col-xs-1">
+                                                                <span class="transfer-detail-carrier-content-sno"> 2 </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-content-commdes"> Transfer paperwork has been received by carrier and is in review process </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-content-comm"> Carrier will only provide information to your client. Please have the client call with the carrier for status  </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-status-wrapper col-xs-2">
+                                                                <span class="transfer-detail-carrier-content-status">Open</span>
+                                                            </li>
+                                                        </ul>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-container" id="TransferTwo">
+                                                <div class="panel-heading accordion_head" data-toggle="collapse" href="#collapsethirdTwo">
+                                                    <h4 class="panel-title accordion_head_wrapper clearfix">
+                                                        <a href="javascript:"> Carrier 2 </a>
+                                                        <span class="accordion_open_close icon pull-right"></span>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapsethirdTwo" class="collapse in">
+                                                    <div class="panel-body">
+                                                        <div id="transferAccordionTwo">
+                                                        <div class="transfer-detail-content clearfix">
+                                                            <p class="no-content one hide" id="application-info">
+                                                                No information available for the selected contract
+                                                            </p>
+                                                            <div class="transfer-detail-carrier-head clearfix">
+                                                                <ul class="list-unstyled clearfix transfer-content-block-one">
+                                                                    <li class="col-xs-4">
+                                                                        <label>Carrier Name :</label>
+                                                                        <label> New York Life </label>
+                                                                    </li>
+                                                                    <li class="col-xs-4">
+                                                                        <label>Contract #:</label>
+                                                                        <label> 9878887 </label>
+                                                                    </li>
+                                                                    <li class="col-xs-4">
+                                                                        <label>Transfer Status :</label>
+                                                                        <label> Pending </label>
+                                                                    </li>
+                                                                    
+                                                                </ul>
+                                                                
+                                                            </div>
+                                                            <div class="transfer-detail-container">
+                                                            <div class="transfer-detail-carrier-content-wrapper clearfix">
+                                                            <ul class="transfer-detail-carrier-content-head list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-head-sno-wrapper col-xs-1">
+                                                                <span class="transfer-detail-carrier-head-sno">  </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-head-commdesc"> Communication Description </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-head-comm"> Comments </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-head-status-wrapper col-xs-2 no-right-border">
+                                                                <span class="transfer-detail-carrier-head-status"> Status </span>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="transfer-detail-carrier-content appdetails-color-bt list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-content-sno-wrapper text-center col-xs-1">
+                                                                <span class="transfer-detail-carrier-content-sno"> 1 </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-content-commdes"> Transfer paperwork has been received by carrier and is in review process </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-content-comm"> Fax Acknowledgement Received </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-status-wrapper col-xs-2">
+                                                                <span class="transfer-detail-carrier-content-status">Open</span>
+                                                            </li>
+                                                        </ul>
+                                                        <ul class="transfer-detail-carrier-content appdetails-color-bt list-unstyled clearfix">
+                                                            <li class="transfer-detail-carrier-content-sno-wrapper text-center col-xs-1">
+                                                                <span class="transfer-detail-carrier-content-sno"> 2 </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-commdes-wrapper col-xs-5">
+                                                                <span class="transfer-detail-carrier-content-commdes"> Transfer paperwork has been received by carrier and is in review process </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-comm-wrapper col-xs-4">
+                                                                <span class="transfer-detail-carrier-content-comm"> Carrier will only provide information to your client. Please have the client call with the carrier for status  </span>
+                                                            </li>
+                                                            <li class="transfer-detail-carrier-content-status-wrapper col-xs-2">
+                                                                <span class="transfer-detail-carrier-content-status">Open</span>
+                                                            </li>
+                                                        </ul>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        <div class="hide" id="transferAccordionNocont">
+                            <p class="no-data no-data-transfer-accordion">No Policy/Contract Detail Available for this Policy/Contract.</p>
+                        </div>
+                                        
+                                    </div>
+                                    <!---req Accordion start -->
+
+                                </div>
+                                <!-- req Accordion end -->
+                            </div>
+                        </div>
+						
+                        <!-- Key Contacts Modal Window -->
+                        <div class="modal fade" id="keyContactWrapper">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- <div class="modal-header email-popup-header-wrapper">
+                                         <header class="menuBar col-xs-12">
+                                            <div class="row">
+                                               
+                                                <div class="col-xs-4 col-lg-3">
+                                                    <div class="axaLogo">
+                                                        
+                                                            <img src="/retail/images/logo-AXA.png" />
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-8 col-lg-9 email-popup-head-right"><span class="pull-right">Business Tracker</span>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    
+                                    </div> -->
+                                    <div class="modal-body key-contact-popup-body">
+                                        <div class="add-info-head">
+                        <span>Policy/Contract #</span>
+                        <span class="addInfopolicyNo"></span>
+                        <span>&nbsp; | &nbsp;</span>
+                        <span>Insured/Annuitant </span>
+                        <span class="addInfoinsuredName"></span>  
+                    </div>
+                                        <div class="data-table key-contact-table-wrapper">
+                                        <div class="resp-table-container hide" id="keyContactTableContainer">
+                                            <table data-role="table" class="resp-table ui-responsive key-contact-table">
+                                            <thead>
+                                            <tr class="key-contact-table-head">
+                                            <th>Name</th>
+                                            <th>Role</th>
+                                            <th>Email</th>
+                                            <th>Phone Number</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                            <td></td>
+                                            <td>Case Manager</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Case Underwriter</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Owner</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Joint Owner</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Insured/Annuitant</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Joint Insured/Annuitant</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Additional Agent 1</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Additional Agent 2</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            <tr>
+                                            <td></td>
+                                            <td>Additional Agent 3</td>
+                                            <td></td>
+                                            <td></td>
+                                            </tr>
+                                            </tbody>
+                                            </table>
+</div><!-- /reflow-table-container//-->
+<div id="noContactsContainer" class="hide">
+                                    <span>No Contact Information Available</span>
+                                </div>
+</div>                          
+                                    </div>
+                                    <div class="modal-footer key-contact-popup-footer">
+                                       <div class="text-center">
+                                          <button type="button" data-role="none" class="btn btn-default" data-dismiss="modal">OK</button>
+                                       </div>
+                                        
+                                    </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Key Contacts Modal Window ends-->
+
+                        <!-- Additional Information PopUp -->
+    <div id="addInfoModal" class="modal fade">
+        <div class="modal-dialog add-info-popup-wrapper">
+            <div class="modal-content">
+                <div class="clearfix"><button type="button" class="add-info-close" data-dismiss="modal" data-role="none" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body add-info-content-wrapper">
+                    
+                    <div class="add-info-head">
+                        <span>Policy/Contract #</span>
+                        <span class="addInfopolicyNo"></span>
+                        <span>&nbsp; | &nbsp;</span>
+                        <span>Insured/Annuitant </span>
+                        <span class="addInfoinsuredName"></span>  
+                    </div>
+                    <div class="add-info-content"></div>
+                </div>
+                <div class="modal-footer add-info-popupend-container">
+                    <span class="btn btn-default add-info-popupend" data-dismiss="modal">OK</span>
+                    <!-- <span class="btn btn-default add-info-popupend-view-btn" data-dismiss="modal">View All Requirements</span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!-- Additional Information PopUp Ends -->
+						<!-- Print Modal Window -->
+
+							<div class="modal fade" id="printWrapper" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header appdetail-print-popup-header">
+										 <header class="menuBar col-xs-12">
+											<div class="row">
+												<!-- body content //-->
+												<div class="col-xs-4 col-lg-3">
+													<div class="axaLogo">
+														<!-- <a href="/axae/myportal/rad/" class="ui-link" style=""> -->
+                                                            <img src="./img/logo-AXA.png" />
+                                                        <!-- </a> -->
+													</div>
+												</div>
+												<div class="col-xs-8 col-lg-9 email-popup-head-right"><span class="pull-right">Business Tracker</span>
+												</div>
+											</div>
+										</header>
+									
+									</div>
+									<div class="modal-body appdetail-print-popup-body">
+											<div class="clearfix text-center appdetail-policy-heading">
+												<div class="col-xs-4 policy-info">
+													<span>Policy/Contract#&nbsp;:</span>&nbsp;
+													<span class="alert-for-policyno"></span>
+												</div>
+												<div class="col-xs-4 policy-info">
+													<span>Insured Name&nbsp;:</span>&nbsp;
+													<span class="alert-for-insuredname"></span>
+												</div>
+												<div class="col-xs-4 policy-info" >
+													<span>Product&nbsp;:</span>&nbsp;
+													<span class="alert-for-product"></span>
+												</div>
+										</div>
+										<div class = "ad-print-popup-top-buttons-wrapper">
+											<div class = " text-center ad-print-pop-up-top-buttons">
+												<button type="button" data-role="none" class="btn btn-default printBtn">Print</button>
+												<button type="button" data-role="none" class="btn btn-primary" data-dismiss="modal">Close</button>
+											</div>
+											
+            
+										</div>
+									<div class="ad-popup-information-content">
+										<div id="contractInfo" class ="contract-information">
+											<h2 class="contract-info-heading">Contract Information</h2>
+                                            <p class="hide no-contract-print" id="noContractPrint">There is no Contract information available for selected Policy / Contract.</p>
+											<div class="visual-representation contract-info-details">
+												<h3 class="contract-sub-heading">Visual Representation</h3>
+												<div class="status-line"></div>
+											</div>
+											<div class="clearfix application-information contract-info-details">
+												<h3 class="contract-sub-heading">Application Information</h3>
+												<div class="popup-app-info-list1 col-xs-4"></div>
+												<div class="popup-app-info-list2 col-xs-4"></div>
+												<div class="popup-app-info-list3 col-xs-4"></div>
+											</div>
+
+											<div class="tab-content app-details-tab-content">
+												<div class="clearfix insured-information contract-info-details">
+													<h3 class="insured-sub-heading">Insured and Coverage Info</h3>
+													<div class="table-panel-container">
+														<div class="panel-body">
+															<ul class="insured-info-head list-unstyled clearfix">
+																<li class="insured_name_head_wrapper col-xs-3">
+																	<span class="insured_name_head"> Insured Name </span>
+																</li>
+																<li class="insured_benefit_head_wrapper col-xs-3">
+																	<span class="insured_benefit_head"> Benefit / Coverage </span>
+																</li>
+																<li class="insured_amount_head_wrapper col-xs-3">
+																	<span class="insured_amount_head"> Amount </span>
+																</li>
+																<li class="insured_rating_head_wrapper col-xs-3 no-right-border">
+																	<span class="insured_rating_head" id="Insr_Rat"> Insured Rating </span>
+																</li>
+															</ul>
+														</div>
+														<div id="popup-insured-info" class="insured-info-content-wrapper">
+															
+														</div>
+													</div>
+												</div>
+                                                <div class="clearfix print-plan-info contract-info-details">
+                                                    <h3 class="plan-info-sub-heading">Plan Information</h3>
+                                                    <div class="panel-body">
+                                                        <div id="popup-plan-info-content" class="plan-info-content">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="clearfix print-ant-det contract-info-details">
+                                                    <h3 class="ant-det-sub-heading">Annuitant Details</h3>
+                                                    <div class="panel-body">
+                                                        <div id="popup-ant-det-content" class="ant-det-content">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+												<div class="clearfix associate-information contract-info-details">
+													<h3 class="associate-sub-heading">Associate Summary</h3>
+													<div class="table-panel-container">
+														<div class="panel-body">
+															<ul class="associate-info-head list-unstyled clearfix">
+																<li class="associate_name_head_wrapper col-xs-3">
+																	<span class="associate_name_head"> Name </span>
+																</li>
+																<li class="associate_code_head_wrapper col-xs-3">
+																	<span class="associate_code_head"> Code </span>
+																</li>
+																<li class="associate_role_head_wrapper col-xs-3">
+																	<span class="associate_role_head"> Role </span>
+																</li>
+																<li class="associate_percentage_head_wrapper col-xs-3 no-right-border">
+																	<span class="associate_percentage_head"> Associate(%)</span>
+																</li>                                                           
+															</ul>
+														</div>
+														<div id="popup-associate-info" class="associate-info-content-wrapper">
+															
+														</div>
+													</div>
+												</div>
+												<div class="clearfix express-comm-info contract-info-details">
+													<h3 class="express-comm-sub-heading">Express Commission</h3>
+													<div class="panel-body">
+														<div id="popup-express-commission-content" class="express-commission-content">
+														
+														</div>
+													</div>
+													
+												</div>
+
+												<div class="clearfix contact-information contract-info-details">
+													<h3 class="contact-info-sub-heading">Contact Information</h3>
+													<div class="table-panel-container">
+														<div class="panel-body">
+															<ul class="contact-info-head list-unstyled clearfix">
+																<li class="contact_role_head_wrapper col-xs-3">
+																	<span class="contact_role_head"> Role </span>
+																</li>
+																<li class="contact_name_head_wrapper col-xs-3">
+																	<span class="contact_name_head"> Name </span>
+																</li>
+																<li class="contact_email_head_wrapper col-xs-3">
+																	<span class="contact_email_head"> Email ID </span>
+																</li>
+																<li class="contact_phone_head_wrapper col-xs-3 no-right-border">
+																	<span class="contact_phone_head"> Phone # </span>
+																</li>
+															</ul>
+														</div>
+														<div id="popup-contact-info-wrapper" class="contact-info-content-wrapper">
+															
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div id="requirementsInfo" class="requirement-information">
+											<h2 class="requirement-info-heading">Requirements</h2>
+                                            <p class="hide no-req-print" id="noRequirementPrint">There is no Requirement data available for selected policy / Contract.</p>
+											<div class="tab-content app-details-tab-content">
+												<div class="clearfix requirement-information requirement-info-details">
+													<h3 class="requirement-sub-heading">Requirement Summary</h3>
+													<div class="table-panel-container">
+														<div class="panel-body">
+															<ul class="req-summary-info-head list-unstyled clearfix">
+																<li class="req_summary_name_head_wrapper col-xs-3">
+																	<span class="req_summary_name_head"> Name </span>
+																</li>
+																<li class="req_summary_agent_head_wrapper col-xs-3">
+																	<span class="req_summary_agent_head"> Agent </span>
+																</li>
+																<li class="req_summary_servicecenter_head_wrapper col-xs-3">
+																	<span class="req_summary_servicecenter_head"> Service Center </span>
+																</li>
+																<li class="req_summary_total_head_wrapper col-xs-3 no-right-border">
+																	<span class="req_summary_total_head"> Total </span>
+																</li>
+															</ul>
+														</div>
+														<div id="popup-req-summary-info-content-wrapper" class="requirement-info-content-wrapper">
+															
+														</div>
+													</div>
+												</div>
+
+												<!---- dummy -->
+												<div class="clearfix requirement-details requirement-info-details">
+													<h3 class="requirement-sub-heading">Requirement Details</h3>
+														<div class="panel-body">
+															<div class="req-details-div" id="popup-req-details-ctr">
+																<div id="popup-firstTable">
+																	<div class="dataTables_wrapper" id="poup-landingDataTable_wrapper">
+																		<table class="req-dataTable list-unstyled dataTable" id="popup-req-dataTable"></table>						
+																	</div>
+																</div>
+															</div>
+														</div>
+													<footer id="popup-req-details-footer" class="req-details-footer req-details-footer-four-width requirements-footer">
+                                                            <ul id="popup-app-footer-bt" class="clearfix list-unstyled app-footer-bt">
+															</ul>
+                                                    </footer>
+												<!-- dummy -->
+												</div>
+											</div>
+										</div>
+									<div id="suitabilityInfo" class="suitability-information">
+											<h2 class="requirement-info-heading">Suitability Review</h2>
+											<div class="tab-content app-details-tab-content">
+												<div id="popup-suitability-info-details" class="clearfix popup-suitability-information suitability-info-details">
+													<h3 class="suitability-sub-heading">Pending Review Detail</h3>
+													<div id="suitability-info" class="panel-body">
+														
+													</div>
+												</div>
+											</div>
+										</div>
+                                        <div id="tranferDetailInfo" class ="transfer-detail-information">
+                                        <h2 class="transfer-detail-info-heading">Transfer Details</h2>
+                                            <div class="tab-content app-details-tab-content">
+                                                <div class="clearfix policy-information policy-info-details">
+                                                    <h3 class="policy-info-sub-heading">Carrier 1</h3>
+                                                    <div id="tranferDetailInfoOne" class="inforce-alerts-transfer-detail-popup-content">
+                                                        <p class="popup-no-content one hide">No information available for the selected contract</p>
+                                                        
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="clearfix policy-value-information policy-value-details">
+                                                    <h3 class="policy-value-sub-heading">Carrier 2</h3>
+                                                    <div id="tranferDetailInfoTwo" class="inforce-alerts-transfer-detail-popup-content">
+                                                        <p class="popup-no-content one hide">No information available for the selected contract</p>
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+
+                                                
+                                        </div>
+                                        
+                                    </div>
+									</div>
+									</div>
+									<div class="modal-footer ad-print-pop-up-bottom-buttons-wrapper">
+									   <!--<div class = "text-center ad-print-pop-up-bottom-buttons">
+										  <button type="button" data-role="none" class="btn btn-default printBtn">Print</button>
+										  <button type="button" data-role="none" class="btn btn-primary" data-dismiss="modal">Close</button>
+										</div>-->
+										<div class="print-footer">
+										<div id="footerCopyright">
+                <!--<div class="row">
+                    <div class="container">-->
+                        <div class="mainContent col-xs-12">
+                            <p class="txt-sm">© 2014 AXA Equitable Life Insurance Company
+                                <span class="greyVertRule"></span> 1290 Avenue of the Americas, New York, NY 10104
+                                <br>
+                                    <a href="/about-axa/privacy.html" class="ui-link">Online Privacy and Security Statement</a>
+                                    <span class="greyVertRule"></span>
+                                    <a href="/about-axa/usage.html" class="ui-link">Usage Agreement</a>
+                                     <span class="greyVertRule"></span>
+                                    <a href="/axae/myportal/rad/help/contactus" class="ui-link">Contact Us </a>
+                                     <span class="greyVertRule"></span>
+                                    <a href="/axae/myportal/rad/help/faq" class="ui-link">Help</a>
+                                </p>
+                            </div>
+                        <!--</div>
+                    </div>-->
+                </div>
+        </div>
+									</div>
+							</div>
+						  </div>
+						</div>
+                    <!-- </div>
